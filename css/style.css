@@ -357,7 +357,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-counter,
 #fh5co-event {
-  height: 1350px;
+  height: 900px;
   float: left;
 }
 #fh5co-counter .display-t,
@@ -826,6 +826,13 @@ h1, h2, h3, h4, h5, h6, figure {
 
 form label {
   font-weight: normal !important;
+}
+
+@media (max-width: 767px) {
+  #fh5co-cover {
+    background-size: cover;
+    background-position: center center;
+  }
 }
 
 #fh5co-header .display-tc,
